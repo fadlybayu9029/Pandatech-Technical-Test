@@ -1,0 +1,29 @@
+{
+  "name": "pandatech-technical-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand --detectOpenHandles",
+    "start": "nodemon ./bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadlybayu9029/Pandatech-Technical-Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadlybayu9029/Pandatech-Technical-Test/issues"
+  },
+  "homepage": "https://github.com/fadlybayu9029/Pandatech-Technical-Test#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jest": "^28.1.0",
+    "qs": "^6.10.3",
+    "supertest": "^6.2.3"
+  }
+}
